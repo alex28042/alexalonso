@@ -1,4 +1,5 @@
 import React from 'react'
+import GithubRepositories from './GithubRepositories'
 import Proyect from './Proyect'
 
 const Proyects = () => {
@@ -20,7 +21,7 @@ const Proyects = () => {
           type={i % 2 === 0}
         />
       ))}
-      
+      <GithubRepositories />
     </div>
   )
 }

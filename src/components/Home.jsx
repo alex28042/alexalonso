@@ -39,7 +39,7 @@ const Home = () => {
           ease: [0, 0.71, 0.2, 1.01]
         }}
       >
-        <img src={require('C:/Users/Michele Ungolo/Desktop/PortaFolio/alexalonso/src/assets/photo.jpg')} className="h-72 rounded-2xl mb-10 shadow-xl"/>
+        <img src={require('/home/alex/Escritorio/PortaFolio/alexalonso/src/assets/photo.jpg')} className="h-72 rounded-2xl mb-10 shadow-xl"/>
       </motion.div>
       <h1 className="text-2xl font-bold	">Alejandro Alonso García</h1>
       <h2 className="text-lg mb-4">Software Developer</h2>
