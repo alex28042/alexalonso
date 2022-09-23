@@ -9,7 +9,7 @@ const Proyects = () => {
   ]
 
   return (
-    <div>
+    <div id='Projects'>
       {proyectDetails.map((e, i) => (
         <Proyect 
           name={e.name}

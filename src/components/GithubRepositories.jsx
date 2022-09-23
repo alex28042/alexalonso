@@ -1,18 +1,29 @@
-import React from 'react'
-import GithubRepositorie from './GithubRepositorie'
+import React, { useEffect, useState } from "react";
+import GithubRepositorie from "./GithubRepositorie";
 
 const GithubRepositories = () => {
-  const githubRepositoriesDetails = [
+  const [repoDetailsJson, setRepoDetailsJson] = useState();
 
-  ]
-    
+  useEffect(() => {
+    try {
+      fetch(`https://api.github.com/users/alex28042/repos`)
+        .then((res) => res.json())
+        .then((res) => setRepoDetailsJson(res));
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
+
   return (
     <div className="flex flex-col items-center justify-center w-full h-screen">
-        <div className='flex flex-row'>
-            <GithubRepositorie />
-        </div>
+      <h1 className="text-3xl mb-44 font-bold">More Projects</h1>
+      <div className="flex flex-row">
+        {repoDetailsJson?.map((e, i) => (
+          <GithubRepositorie repo={e} />
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default GithubRepositories
+export default GithubRepositories;
