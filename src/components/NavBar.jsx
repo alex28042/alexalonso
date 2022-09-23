@@ -71,8 +71,15 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <img className="h-10 w-10 mr-2 text-slate-50" src={require('C:/Users/Michele Ungolo/Desktop/PortaFolio/alexalonso/src/assets/linkedin.png')} />
-        <img className="h-10 w-10 mr-2 text-slate-50" src={require('C:/Users/Michele Ungolo/Desktop/PortaFolio/alexalonso/src/assets/github.png')} />
+        <a href="https://github.com/alex28042">
+        <img className="h-10 w-10 mr-2 text-slate-50" src={require('/home/alex/Escritorio/PortaFolio/alexalonso/src/assets/linkedin.jpg')} />
+
+        </a>
+        <a href="https://linkedin.com">
+        <img className="h-10 w-10 mr-2 text-slate-50" src={require('/home/alex/Escritorio/PortaFolio/alexalonso/src/assets/github.png')} />
+
+        </a>
+       
         <label className="swap swap-rotate">
           <input
             type="checkbox"

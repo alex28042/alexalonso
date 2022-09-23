@@ -19,7 +19,7 @@ const GithubRepositories = () => {
       <h1 className="text-3xl mb-44 font-bold">More Projects</h1>
       <div className="flex flex-row">
         {repoDetailsJson?.map((e, i) => (
-          <GithubRepositorie repo={e} />
+          <GithubRepositorie key={i} repo={e} />
         ))}
       </div>
     </div>
