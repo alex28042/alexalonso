@@ -3,7 +3,7 @@ import RepoCard from "react-repo-card";
 
 const GithubRepositorie = (props) => {
   return (
-    <div className="mr-4" style={{width: "405px"}}>
+    <div className="mr-4" style={{width: "250px"}}>
       <RepoCard username="alex28042" repository={props.repo.name} />
     </div>
   );

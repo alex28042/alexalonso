@@ -39,7 +39,7 @@ const Home = () => {
         }}
       >
         <img
-          src={require("/home/alex/Escritorio/PortaFolio/alexalonso/src/assets/photo.jpg")}
+          src={require("C:/Users/Michele Ungolo/Desktop/PortaFolio/alexalonso/src/assets/photo.jpg")}
           className="h-72 rounded-2xl mb-10 shadow-xl"
         />
       </motion.div>

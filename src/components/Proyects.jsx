@@ -11,7 +11,7 @@ const Proyects = () => {
       programmingLenguague: ["React-native", "Firebase"],
       githubUrl: null,
       visitPage: null,
-      image: "",
+      image: "myroutine.png",
     },
     {
       name: "WordlES",
@@ -20,7 +20,7 @@ const Proyects = () => {
       programmingLenguague: ["Flutter"],
       githubUrl: null,
       visitPage: null,
-      image: "",
+      image: "wordles.png",
     },
   ];
 
