@@ -1,16 +1,18 @@
-import React, { useContext } from 'react'
-import ThemeContext from '../Context/ThemeContext'
+import React, { useContext } from "react";
+import { useEffect } from "react";
+import ThemeProvider from "./ThemeProvider";
 
-const Layout = ({children}) => {
-  const {theme} = useContext(ThemeContext)
-  
-  const bg = theme == "bg-slate-600" ? "bg-slate-600 w-full h-full items-center flex flex-col" : "bg-slate-200 w-full h-full items-center flex flex-col"
-  
+const Layout = ({ children }) => {
+
   return (
-    <div className={bg}>
-        {children}
+    <div
+      className={
+        "bg-slate-600 w-full h-full items-center flex flex-col"
+      }
+    >
+      {children}
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

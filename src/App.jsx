@@ -7,13 +7,11 @@ import Layout from "./components/Layout";
 import NavBar from "./components/NavBar";
 import Proyects from "./components/Proyects";
 import SectionAnimation from "./components/SectionAnimation";
-import ThemeContext from "./Context/ThemeContext";
+import ThemeProvider from "./components/ThemeProvider";
 import "./index.css";
 
 const App = () => {
-  const [theme, setTheme] = useState("bg-slate-600");
   const [loading, setLoading] = useState(true);
-  const value = { theme, setTheme };
 
   useEffect(() => {
     setTimeout(() => {
@@ -31,8 +29,8 @@ const App = () => {
         </>
       ) : (
         <>
-          <ThemeContext.Provider value={value}>
-            <Layout>
+        <ThemeProvider>
+           <Layout>
               <NavBar />
               <Home />
               <Proyects />
@@ -41,7 +39,8 @@ const App = () => {
                 <Hobbies />
               </SectionAnimation>
             </Layout>
-          </ThemeContext.Provider>
+        </ThemeProvider>
+           
         </>
       )}
     </>
