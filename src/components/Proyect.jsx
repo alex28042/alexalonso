@@ -11,7 +11,7 @@ const Proyect = (props) => {
             <div className="hero flex flex-col items-center justify-center w-full h-screen">
               <div className="hero-content flex-col lg:flex-row">
                 <img
-                  style={{height: "400px"}}
+                  style={{ height: "400px" }}
                   src={require(`/home/alex/Escritorio/PortaFolio/alexalonso/src/assets/${props.image}`)}
                   className="max-w-sm  rounded-lg shadow-2xl"
                 />
@@ -64,7 +64,7 @@ const Proyect = (props) => {
             <div className="hero flex flex-col items-center justify-center w-full h-screen">
               <div className="hero-content flex-col lg:flex-row-reverse">
                 <img
-                  style={{height: "400px"}}
+                  style={{ height: "400px" }}
                   src={require(`/home/alex/Escritorio/PortaFolio/alexalonso/src/assets/${props.image}`)}
                   className="max-w-sm rounded-lg shadow-2xl"
                 />
@@ -73,9 +73,7 @@ const Proyect = (props) => {
                   <p className="py-6 w-80">{props.description}</p>
                   <div className="flex flex-row mt-2 mb-4">
                     {props.programmingLenguague.map((e, i) => (
-                      <>
-                        <div className="badge ml-1 opacity-60">{e}</div>
-                      </>
+                      <div className="badge ml-1 opacity-60">{e}</div>
                     ))}
                   </div>
                   <div className="flex flex-row">

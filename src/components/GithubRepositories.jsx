@@ -17,7 +17,7 @@ const GithubRepositories = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full h-screen">
       <h1 className="text-3xl mb-44 font-bold">More Projects</h1>
-      <div className="flex flex-row">
+      <div className="flex md:flex-row flex-col">
         {repoDetailsJson?.map((e, i) => (
           <GithubRepositorie key={i} repo={e} />
         ))}

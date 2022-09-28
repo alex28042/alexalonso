@@ -8,11 +8,11 @@ const NavBar = () => {
 
   const handleTheme = () => {
     setTimeout(() => {
-      setTheme(!theme)
-    }, 50);  
-  }
+      setTheme(!theme);
+    }, 50);
+  };
 
-  console.log(theme)
+  console.log(theme);
 
   return (
     <div
@@ -111,10 +111,7 @@ const NavBar = () => {
           </svg>
         </a>
 
-        <label
-          className="swap swap-rotate"
-          onClick={() => handleTheme()}
-        >
+        <label className="swap swap-rotate" onClick={() => handleTheme()}>
           <input type="checkbox" />
           <svg
             className="swap-on fill-current w-10 h-10"

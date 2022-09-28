@@ -3,16 +3,14 @@ import { useEffect } from "react";
 import ThemeProvider, { ThemeContext } from "./ThemeProvider";
 
 const Layout = ({ children }) => {
-  const {theme} = useContext(ThemeContext)
+  const { theme } = useContext(ThemeContext);
 
   return (
     <div
       className={
-        theme ?
-        "bg-slate-200 w-full h-full items-center flex flex-col"
-
-        :
-        "bg-slate-600 w-full h-full items-center flex flex-col"
+        theme
+          ? "bg-slate-200 w-full h-full items-center flex flex-col"
+          : "bg-slate-600 w-full h-full items-center flex flex-col"
       }
     >
       {children}
