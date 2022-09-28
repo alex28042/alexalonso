@@ -8,12 +8,11 @@ const Proyect = (props) => {
       <SectionAnimation orientation={false}>
         {props.type ? (
           <>
-            <div className="hero flex flex-col items-center justify-center w-full h-screen">
+            <div className="hero flex md:mt-0  flex-col items-center justify-center w-full h-screen">
               <div className="hero-content flex-col lg:flex-row">
                 <img
-                  style={{ height: "400px" }}
                   src={require(`/home/alex/Escritorio/PortaFolio/alexalonso/src/assets/${props.image}`)}
-                  className="max-w-sm  rounded-lg shadow-2xl"
+                  className="max-w-sm h-2/5  rounded-lg shadow-2xl"
                 />
                 <div className="ml-10">
                   <h1 className="text-5xl font-bold">{props.name}</h1>
@@ -25,10 +24,10 @@ const Proyect = (props) => {
                       </>
                     ))}
                   </div>
-                  <div className="flex flex-row">
+                  <div className="flex md:flex-row flex-col">
                     <button
                       onClick={window.open(props.githubUrl)}
-                      className="btn btn-primary mr-2 flex flex-row"
+                      className="btn btn-primary md:mr-2 mb-2 flex flex-row"
                     >
                       <svg
                         className="h-7 w-7 mr-2"
@@ -61,12 +60,11 @@ const Proyect = (props) => {
           </>
         ) : (
           <>
-            <div className="hero flex flex-col items-center justify-center w-full h-screen">
+            <div className="hero flex flex-col md:mt-0 items-center justify-center w-full h-screen">
               <div className="hero-content flex-col lg:flex-row-reverse">
                 <img
-                  style={{ height: "400px" }}
                   src={require(`/home/alex/Escritorio/PortaFolio/alexalonso/src/assets/${props.image}`)}
-                  className="max-w-sm rounded-lg shadow-2xl"
+                  className="max-w-sm h-2/5 rounded-lg shadow-2xl"
                 />
                 <div className="ml-10">
                   <h1 className="text-5xl font-bold">{props.name}</h1>
@@ -76,10 +74,10 @@ const Proyect = (props) => {
                       <div className="badge ml-1 opacity-60">{e}</div>
                     ))}
                   </div>
-                  <div className="flex flex-row">
+                  <div className="flex md:flex-row flex-col">
                     <button
                       onClick={window.open(props.githubUrl)}
-                      className="btn btn-primary mr-2 flex flex-row"
+                      className="btn btn-primary md:mr-2 mb-2 flex flex-row"
                     >
                       <svg
                         className="h-7 w-7 mr-2"
