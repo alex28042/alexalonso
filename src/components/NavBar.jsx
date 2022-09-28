@@ -6,11 +6,13 @@ import { ThemeContext } from "./ThemeProvider";
 const NavBar = () => {
   const { theme, setTheme } = useContext(ThemeContext);
 
-  const handleTheme = (count) => {
-    if (count === 0) {
-      setTheme(!theme);
-    }
-  };
+  const handleTheme = () => {
+    setTimeout(() => {
+      setTheme(!theme)
+    }, 50);  
+  }
+
+  console.log(theme)
 
   return (
     <div
@@ -111,7 +113,7 @@ const NavBar = () => {
 
         <label
           className="swap swap-rotate"
-          onClick={() => handleTheme(0)}
+          onClick={() => handleTheme()}
         >
           <input type="checkbox" />
           <svg

@@ -12,7 +12,7 @@ const Proyect = (props) => {
               <div className="hero-content flex-col lg:flex-row">
                 <img
                   style={{height: "400px"}}
-                  src={require(`C:/Users/Michele Ungolo/Desktop/PortaFolio/alexalonso/src/assets/${props.image}`)}
+                  src={require(`/home/alex/Escritorio/PortaFolio/alexalonso/src/assets/${props.image}`)}
                   className="max-w-sm  rounded-lg shadow-2xl"
                 />
                 <div className="ml-10">
@@ -65,7 +65,7 @@ const Proyect = (props) => {
               <div className="hero-content flex-col lg:flex-row-reverse">
                 <img
                   style={{height: "400px"}}
-                  src={require(`C:/Users/Michele Ungolo/Desktop/PortaFolio/alexalonso/src/assets/${props.image}`)}
+                  src={require(`/home/alex/Escritorio/PortaFolio/alexalonso/src/assets/${props.image}`)}
                   className="max-w-sm rounded-lg shadow-2xl"
                 />
                 <div className="ml-10">

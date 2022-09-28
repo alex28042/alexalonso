@@ -4,7 +4,7 @@ import SectionAnimation from "./SectionAnimation";
 
 const Abilitys = () => {
   const abilitysDetails = [
-    "React",
+    "react",
     "Python",
     "React-Native",
     "Firebase",
