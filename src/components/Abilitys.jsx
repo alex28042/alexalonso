@@ -20,7 +20,7 @@ const Abilitys = () => {
     >
       <h1 className="text-3xl mb-10 font-bold">Habilidades</h1>
       <SectionAnimation orientation={true}>
-        <div className="flex flex-row w-3/4">
+        <div className="md:flex md:flex-row grid grid-cols-4 ">
           {abilitysDetails.map((e, i) => (
             <Ability key={i} ability={e} />
           ))}
