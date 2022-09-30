@@ -1,8 +1,19 @@
 import React from "react";
+import { useState } from "react";
 import "../index.css";
+import ErrorButton from "./button/ErrorButton";
 import SectionAnimation from "./SectionAnimation";
 
 const Proyect = (props) => {
+  const [errorOnPress, setErrorOnPress] = useState(false);
+
+ /* const errorPress = (message) => {
+    setErrorOnPress(true);
+    setTimeout(() => {
+      return <ErrorButton msg={message} />;
+    }, 500);
+  };*/
+
   return (
     <>
       <SectionAnimation orientation={false}>
@@ -19,12 +30,10 @@ const Proyect = (props) => {
                   <p className="py-6 w-80">{props.description}</p>
                   <div className="flex flex-row mt-2 mb-4">
                     {props.programmingLenguague.map((e, i) => (
-                      <>
-                        <div className="badge ml-1 opacity-60">{e}</div>
-                      </>
+                      <div className="badge ml-1 opacity-60">{e}</div>
                     ))}
                   </div>
-                  <div className="flex md:flex-row flex-col">
+                  <div className="flex md:flex-row flex-col md:w-48 w-48 md:mb-0 mb-36">
                     <button
                       onClick={window.open(props.githubUrl)}
                       className="btn btn-primary md:mr-2 mb-2 flex flex-row"
@@ -64,9 +73,9 @@ const Proyect = (props) => {
               <div className="hero-content flex-col lg:flex-row-reverse">
                 <img
                   src={require(`/home/alex/Escritorio/PortaFolio/alexalonso/src/assets/${props.image}`)}
-                  className="max-w-sm h-2/5 rounded-lg shadow-2xl"
+                  className="max-w-sm h-2/5 ml-10 rounded-lg shadow-2xl"
                 />
-                <div className="ml-10">
+                <div className="mr-10">
                   <h1 className="text-5xl font-bold">{props.name}</h1>
                   <p className="py-6 w-80">{props.description}</p>
                   <div className="flex flex-row mt-2 mb-4">
@@ -74,7 +83,7 @@ const Proyect = (props) => {
                       <div className="badge ml-1 opacity-60">{e}</div>
                     ))}
                   </div>
-                  <div className="flex md:flex-row flex-col">
+                  <div className="flex md:flex-row flex-col md:w-48 w-48">
                     <button
                       onClick={window.open(props.githubUrl)}
                       className="btn btn-primary md:mr-2 mb-2 flex flex-row"

@@ -1,6 +1,7 @@
 import React from "react";
 import GithubRepositories from "./GithubRepositories";
 import Proyect from "./Proyect";
+import SectionAnimation from "./SectionAnimation";
 
 const Proyects = () => {
   const proyectDetails = [
@@ -38,7 +39,9 @@ const Proyects = () => {
           type={i % 2 === 0}
         />
       ))}
-      <GithubRepositories />
+      <SectionAnimation>
+        <GithubRepositories />
+      </SectionAnimation>
     </div>
   );
 };

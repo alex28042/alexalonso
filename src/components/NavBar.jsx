@@ -96,7 +96,10 @@ const NavBar = () => {
             }}
             whileTap={{ scale: 0.9 }}
           >
-            <a href="https://github.com/alex28042" className="mr-3">
+            <a
+              href="https://www.linkedin.com/in/alejandro-alonso-96b051224/"
+              className="mr-3"
+            >
               <svg
                 className="w-10 h-10"
                 xmlns="http://www.w3.org/2000/svg"
@@ -114,10 +117,7 @@ const NavBar = () => {
             }}
             whileTap={{ scale: 0.9 }}
           >
-            <a
-              href="https://www.linkedin.com/in/alejandro-alonso-96b051224/"
-              className="mr-3"
-            >
+            <a href="https://github.com/alex28042" className="mr-3">
               <svg
                 className="w-10 h-10"
                 xmlns="http://www.w3.org/2000/svg"
