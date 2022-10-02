@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import "../index.css";
-import { ThemeContext } from "../ThemeProvider";
+import "../../index.css";
+import { ThemeContext } from "../../Context/ThemeProvider";
 import { motion } from "framer-motion";
 
 const NavBar = () => {
@@ -29,7 +29,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <motion.div
+    <div
       style={{ width: "97%", height: "50px" }}
       className={
         bgScrollNavBar
@@ -169,7 +169,7 @@ const NavBar = () => {
           </svg>
         </label>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
-import { Navbar } from "react-daisyui";
 import Abilities from "./components/Abilities/Abilities";
 import Hobbies from "./components/Hobbies/Hobbies";
 import Home from "./components/Home/Home";
 import Layout from "./components/Layout/Layout";
+import NavBar from "./components/NavBar/NavBar";
 import Proyects from "./components/Projects/Proyects";
 import LoadingDots from "./components/Styles/LoadingDots";
 import SectionAnimation from "./components/Styles/SectionAnimation";
@@ -28,7 +28,7 @@ const App = () => {
       ) : (
         <ThemeProvider>
           <Layout>
-            <Navbar />
+            <NavBar />
             <Home />
             <Proyects />
             <Abilities />
