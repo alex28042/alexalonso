@@ -1,7 +1,7 @@
 import React from "react";
-import GithubRepositories from "../GithubRepositories/GithubRepositorie";
-import Proyect from "./Proyect";
+import GithubRepositories from "../GithubRepositories/GithubRepositories";
 import SectionAnimation from "../Styles/SectionAnimation";
+import Project from "./Project";
 
 const Proyects = () => {
   const proyectDetails = [
@@ -28,7 +28,7 @@ const Proyects = () => {
   return (
     <div id="Projects">
       {proyectDetails.map((e, i) => (
-        <Proyect
+        <Project
           key={i}
           name={e.name}
           description={e.Description}

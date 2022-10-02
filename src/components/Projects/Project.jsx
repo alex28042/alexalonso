@@ -1,4 +1,3 @@
-import { MotionConfig } from "framer-motion";
 import React from "react";
 import { useState } from "react";
 import "../../index.css";
@@ -39,7 +38,7 @@ const ErrorTask = (props) => {
   );
 };
 
-const Proyect = (props) => {
+const Project = (props) => {
   const [error, setError] = useState(false);
   const [typeOfError, setTypeOfError] = useState();
   
@@ -196,4 +195,4 @@ const Proyect = (props) => {
   );
 };
 
-export default Proyect;
+export default Project;
