@@ -18,7 +18,7 @@ const Abilities = () => {
       id="Abilities"
       className="flex flex-col items-center justify-center w-full h-screen"
     >
-      <h1 className="text-3xl mb-10 font-bold">Abilities</h1>
+      <h1 className="text-3xl mb-10 font-bold">Habilidades</h1>
       <SectionAnimation orientation={true}>
         <div className="md:flex md:flex-row grid grid-cols-3 ">
           {abilitysDetails.map((e, i) => (

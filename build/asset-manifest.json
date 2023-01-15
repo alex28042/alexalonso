@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/alexalonso/static/css/main.881aa7f4.css",
-    "main.js": "/alexalonso/static/js/main.7072d700.js",
+    "main.js": "/alexalonso/static/js/main.d0d5c816.js",
     "static/media/photo.jpg": "/alexalonso/static/media/photo.281791ae1e8a7be8834d.jpg",
+    "static/media/universitiers.png": "/alexalonso/static/media/universitiers.2ec9c3f595f0ed2a50f3.png",
     "static/media/2222.jpg": "/alexalonso/static/media/2222.4572c0854214fe1d4596.jpg",
     "static/media/myroutine.png": "/alexalonso/static/media/myroutine.2a95d02ddf422fe8eded.png",
     "static/media/wordles.png": "/alexalonso/static/media/wordles.12b20c71e4a6eefc8873.png",
@@ -11,10 +12,10 @@
     "static/media/Flutter.png": "/alexalonso/static/media/Flutter.2e31d94a009e134a4804.png",
     "index.html": "/alexalonso/index.html",
     "main.881aa7f4.css.map": "/alexalonso/static/css/main.881aa7f4.css.map",
-    "main.7072d700.js.map": "/alexalonso/static/js/main.7072d700.js.map"
+    "main.d0d5c816.js.map": "/alexalonso/static/js/main.d0d5c816.js.map"
   },
   "entrypoints": [
     "static/css/main.881aa7f4.css",
-    "static/js/main.7072d700.js"
+    "static/js/main.d0d5c816.js"
   ]
 }

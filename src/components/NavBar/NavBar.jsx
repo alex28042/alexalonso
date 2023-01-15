@@ -61,12 +61,12 @@ const NavBar = () => {
           >
             <li>
               <Link to="Projects" smooth={true} duration={1000}>
-                Projects
+                Proyectos
               </Link>
             </li>
             <li>
               <Link to="Abilities" smooth={true} duration={1000}>
-                Abilities
+                Habilidades
               </Link>
             </li>
             <li>
@@ -89,12 +89,12 @@ const NavBar = () => {
         <ul className="menu menu-horizontal p-0">
           <li>
             <Link to="Projects" smooth={true} duration={1000}>
-              Projects
+            Proyectos
             </Link>
           </li>
           <li>
             <Link to="Abilities" smooth={true} duration={1000}>
-              Abilities
+            Habilidades
             </Link>
           </li>
           <li>

@@ -48,11 +48,11 @@ const Home = () => {
       </motion.div>
       <h1 className="text-2xl font-bold	">Alejandro Alonso García</h1>
       <div className="flex flex-row mt-2 mb-4">
-        <h2 className="text-xl mr-1">I am</h2>
+        <h2 className="text-xl mr-1">Soy</h2>
         <h2 className="text-xl">
           <TypewriterComponent
             options={{
-              strings: ["a software developer"],
+              strings: ["desarrollador Web freelance", "desarrollador de Apps"],
               autoStart: true,
               loop: true,
             }}
@@ -62,7 +62,7 @@ const Home = () => {
 
       <a href="https://www.linkedin.com/in/alejandro-alonso-96b051224/">
         <button>
-          <span class="text">Contact me</span>
+          <span class="text">Contáctame</span>
         </button>
       </a>
       <motion.div
@@ -75,7 +75,7 @@ const Home = () => {
         }}
       >
         <h1 className="mt-5 text-xl">
-          Hi <WavingHand /> !
+          Heey <WavingHand /> !
         </h1>
       </motion.div>
     </div>
