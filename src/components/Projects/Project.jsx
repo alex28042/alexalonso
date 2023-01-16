@@ -57,7 +57,7 @@ const Project = (props) => {
               <div className="hero-content flex-col lg:flex-row">
                 <img
                   src={require(`C:/Users/Michele Ungolo/Desktop/PortaFolio/alexalonso/src/assets/${props.image}`)}
-                  className="max-w-sm h-2/5  rounded-lg shadow-2xl"
+                  className="max-w-xs sm:max-w-sm h-2/5  rounded-lg shadow-2xl"
                 />
                 <div className="ml-10">
                   <h1 className="text-5xl font-bold">{props.name}</h1>
@@ -126,7 +126,7 @@ const Project = (props) => {
               <div className="hero-content flex-col lg:flex-row-reverse">
                 <img
                   src={require(`C:/Users/Michele Ungolo/Desktop/PortaFolio/alexalonso/src/assets/${props.image}`)}
-                  className="max-w-sm h-2/5 ml-10 rounded-lg shadow-2xl"
+                  className="max-w-xs sm:max-w-sm h-2/5 ml-10 rounded-lg shadow-2xl"
                 />
                 <div className="mr-10">
                   <h1 className="text-5xl font-bold">{props.name}</h1>
