@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alexalonso/static/css/main.ee9640b5.css",
-    "main.js": "/alexalonso/static/js/main.55e703aa.js",
+    "main.css": "/alexalonso/static/css/main.537c8210.css",
+    "main.js": "/alexalonso/static/js/main.f8983323.js",
     "static/media/Restaurante1.mp4": "/alexalonso/static/media/Restaurante1.bb818edbe7717fce4c3d.mp4",
     "static/media/Restaurante2.mp4": "/alexalonso/static/media/Restaurante2.3862085f9592368b58fa.mp4",
     "static/media/rick.gif": "/alexalonso/static/media/rick.65c399d6afa8cb5922e2.gif",
@@ -12,11 +12,11 @@
     "static/media/wordles.png": "/alexalonso/static/media/wordles.12b20c71e4a6eefc8873.png",
     "static/media/AdobeXD.png": "/alexalonso/static/media/AdobeXD.a76712985929dc7040e3.png",
     "index.html": "/alexalonso/index.html",
-    "main.ee9640b5.css.map": "/alexalonso/static/css/main.ee9640b5.css.map",
-    "main.55e703aa.js.map": "/alexalonso/static/js/main.55e703aa.js.map"
+    "main.537c8210.css.map": "/alexalonso/static/css/main.537c8210.css.map",
+    "main.f8983323.js.map": "/alexalonso/static/js/main.f8983323.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee9640b5.css",
-    "static/js/main.55e703aa.js"
+    "static/css/main.537c8210.css",
+    "static/js/main.f8983323.js"
   ]
 }
