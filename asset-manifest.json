@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alexalonso/static/css/main.537c8210.css",
-    "main.js": "/alexalonso/static/js/main.1ad8ce48.js",
+    "main.js": "/alexalonso/static/js/main.d62dbc12.js",
     "static/media/Restaurante1.mp4": "/alexalonso/static/media/Restaurante1.bb818edbe7717fce4c3d.mp4",
     "static/media/Restaurante2.mp4": "/alexalonso/static/media/Restaurante2.3862085f9592368b58fa.mp4",
     "static/media/rick.gif": "/alexalonso/static/media/rick.65c399d6afa8cb5922e2.gif",
@@ -11,12 +11,13 @@
     "static/media/myroutine.png": "/alexalonso/static/media/myroutine.2a95d02ddf422fe8eded.png",
     "static/media/wordles.png": "/alexalonso/static/media/wordles.12b20c71e4a6eefc8873.png",
     "static/media/AdobeXD.png": "/alexalonso/static/media/AdobeXD.a76712985929dc7040e3.png",
+    "static/media/url-shortener.png": "/alexalonso/static/media/url-shortener.aa0f733feea0868ac75b.png",
     "index.html": "/alexalonso/index.html",
     "main.537c8210.css.map": "/alexalonso/static/css/main.537c8210.css.map",
-    "main.1ad8ce48.js.map": "/alexalonso/static/js/main.1ad8ce48.js.map"
+    "main.d62dbc12.js.map": "/alexalonso/static/js/main.d62dbc12.js.map"
   },
   "entrypoints": [
     "static/css/main.537c8210.css",
-    "static/js/main.1ad8ce48.js"
+    "static/js/main.d62dbc12.js"
   ]
 }
