@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alexalonso/static/css/main.4d0b979a.css",
-    "main.js": "/alexalonso/static/js/main.f5e1e6e1.js",
+    "main.css": "/alexalonso/static/css/main.24a8c65a.css",
+    "main.js": "/alexalonso/static/js/main.173a4922.js",
     "static/media/Restaurante1.mp4": "/alexalonso/static/media/Restaurante1.bb818edbe7717fce4c3d.mp4",
     "static/media/Restaurante2.mp4": "/alexalonso/static/media/Restaurante2.3862085f9592368b58fa.mp4",
     "static/media/rick.gif": "/alexalonso/static/media/rick.65c399d6afa8cb5922e2.gif",
@@ -13,11 +13,11 @@
     "static/media/AdobeXD.png": "/alexalonso/static/media/AdobeXD.a76712985929dc7040e3.png",
     "static/media/url-shortener.png": "/alexalonso/static/media/url-shortener.aa0f733feea0868ac75b.png",
     "index.html": "/alexalonso/index.html",
-    "main.4d0b979a.css.map": "/alexalonso/static/css/main.4d0b979a.css.map",
-    "main.f5e1e6e1.js.map": "/alexalonso/static/js/main.f5e1e6e1.js.map"
+    "main.24a8c65a.css.map": "/alexalonso/static/css/main.24a8c65a.css.map",
+    "main.173a4922.js.map": "/alexalonso/static/js/main.173a4922.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d0b979a.css",
-    "static/js/main.f5e1e6e1.js"
+    "static/css/main.24a8c65a.css",
+    "static/js/main.173a4922.js"
   ]
 }
